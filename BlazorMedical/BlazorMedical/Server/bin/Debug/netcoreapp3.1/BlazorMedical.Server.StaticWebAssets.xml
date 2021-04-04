@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Client\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Client\wwwroot\" />
+</StaticWebAssets>

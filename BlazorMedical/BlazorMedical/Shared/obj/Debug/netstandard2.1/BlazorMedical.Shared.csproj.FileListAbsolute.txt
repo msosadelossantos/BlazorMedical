@@ -1,0 +1,9 @@
+C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Shared\bin\Debug\netstandard2.1\BlazorMedical.Shared.deps.json
+C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Shared\bin\Debug\netstandard2.1\BlazorMedical.Shared.dll
+C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Shared\bin\Debug\netstandard2.1\BlazorMedical.Shared.pdb
+C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Shared\obj\Debug\netstandard2.1\BlazorMedical.Shared.csprojAssemblyReference.cache
+C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Shared\obj\Debug\netstandard2.1\BlazorMedical.Shared.AssemblyInfoInputs.cache
+C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Shared\obj\Debug\netstandard2.1\BlazorMedical.Shared.AssemblyInfo.cs
+C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Shared\obj\Debug\netstandard2.1\BlazorMedical.Shared.csproj.CoreCompileInputs.cache
+C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Shared\obj\Debug\netstandard2.1\BlazorMedical.Shared.dll
+C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical\Shared\obj\Debug\netstandard2.1\BlazorMedical.Shared.pdb

@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "BlazorMedical.Client.dll": "sha256-k87w834q1gvpAqCPjS9u8BtHetZb63T\/bUjs6d3cx24=",
+      "BlazorMedical.Client.dll": "sha256-wugTavQ1MrDufOL765SbjVRn9+sgOUG7dQK56TJ1JCU=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -44,7 +44,7 @@
       "System.ComponentModel.DataAnnotations.dll": "sha256-LIfCYwg+PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=",
       "Microsoft.AspNetCore.Components.dll": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
-      "BlazorMedical.Shared.dll": "sha256-HkozcODjvRlK\/9qCRKXEyyW25vKaiwqU+XVAJYdMQ3k=",
+      "BlazorMedical.Shared.dll": "sha256-C0TRNNHcpjVvQ0bilHoYP7+aPp9GFtp\/TvQb0ba\/snI=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-FJ+rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-oK1Bjv95fH+hSbogUkJE+xDAI203kJG6lL6Sm\/NuPWg=",
       "Microsoft.Extensions.Primitives.dll": "sha256-y\/FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK+gtKc=",
@@ -61,8 +61,8 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "BlazorMedical.Client.pdb": "sha256-eLd2s2Fz+oSlfMN+ytauto0L4gCwzHORl9t8jH1Wxg0=",
-      "BlazorMedical.Shared.pdb": "sha256-qTq7skpCPP5\/qy73CORBq1mjy+qx7KOcuWhXpYwqXp0="
+      "BlazorMedical.Client.pdb": "sha256-qPhkSkIpKUcA9PQ34IGzHrojFHWJP+caKyVABN1qjSs=",
+      "BlazorMedical.Shared.pdb": "sha256-JtlNM77hIZVsfVVo9oFKj30\/eXQBYYjwuWX\/4N3u1E0="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",

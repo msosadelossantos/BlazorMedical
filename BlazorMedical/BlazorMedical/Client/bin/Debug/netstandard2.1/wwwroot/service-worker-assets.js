@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-BHNhq10T\/9aejlrFEhS\/NYeYS3Djwv\/pqg2xUjQCx\/s=",
+      "hash": "sha256-4QvBZ7BkHoyMX0Ev5qPeHce1WFBFvgtCPB4EpFZMlko=",
       "url": "css\/app.css"
     },
     {
@@ -65,7 +65,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-k87w834q1gvpAqCPjS9u8BtHetZb63T\/bUjs6d3cx24=",
+      "hash": "sha256-wugTavQ1MrDufOL765SbjVRn9+sgOUG7dQK56TJ1JCU=",
       "url": "_framework\/_bin\/BlazorMedical.Client.dll"
     },
     {
@@ -217,7 +217,7 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
-      "hash": "sha256-HkozcODjvRlK\/9qCRKXEyyW25vKaiwqU+XVAJYdMQ3k=",
+      "hash": "sha256-C0TRNNHcpjVvQ0bilHoYP7+aPp9GFtp\/TvQb0ba\/snI=",
       "url": "_framework\/_bin\/BlazorMedical.Shared.dll"
     },
     {
@@ -277,11 +277,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-eLd2s2Fz+oSlfMN+ytauto0L4gCwzHORl9t8jH1Wxg0=",
+      "hash": "sha256-qPhkSkIpKUcA9PQ34IGzHrojFHWJP+caKyVABN1qjSs=",
       "url": "_framework\/_bin\/BlazorMedical.Client.pdb"
     },
     {
-      "hash": "sha256-qTq7skpCPP5\/qy73CORBq1mjy+qx7KOcuWhXpYwqXp0=",
+      "hash": "sha256-JtlNM77hIZVsfVVo9oFKj30\/eXQBYYjwuWX\/4N3u1E0=",
       "url": "_framework\/_bin\/BlazorMedical.Shared.pdb"
     },
     {
@@ -301,9 +301,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-FBbexTwL79JdqfO\/LutPieiJsHAxZUnJiwf7LY+LdJo=",
+      "hash": "sha256-BxReUZhTbckWzqMGLkSWGkkTs\/YlTQ7UZLAOjUjg5Tk=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "woM4xjUQ"
+  "version": "HGEVtzub"
 };

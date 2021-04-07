@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BlazorMedical.Data.Utils;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,7 +7,7 @@ namespace BlazorMedical.Data.Entities
 {
     public class Medico
     {
-        public int MedicoId { get; set; }
+        public string MedicoId { get; set; }
         public string Nombre { get; set; }
         public string Nombre2 { get; set; }
 
@@ -24,17 +25,25 @@ namespace BlazorMedical.Data.Entities
 
         public string DireccionNumero { get; set; }
 
-        public string DireccionProvincia { get; set; }
+
+        public string DireccionProvinciaId { get; set; }
+        public virtual Provincia DireccionProvincia { get; set; }
 
         public string DireccionLocalidad { get; set; }
 
         public string DireccionCp { get; set; }
 
-        public string DireccionPais { get; set; }
+        
 
-        public string PaisNacimiento { get; set; }
+        public string DireccionPaisId { get; set; }
+        public virtual Pais DireccionPais { get; set; }
+
+
+        public string PaisNacimientoId { get; set; }
+        public virtual Pais PaisNacimiento { get; set; }
 
         public virtual IEnumerable<MedicoEspecialidad> MedicoEspecialidades { get; set; }
+
 
     }
 }

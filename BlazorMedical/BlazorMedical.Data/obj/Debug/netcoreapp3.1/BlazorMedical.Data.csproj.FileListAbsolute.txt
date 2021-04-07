@@ -10,3 +10,14 @@ C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\bi
 C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\obj\Debug\netcoreapp3.1\BlazorMedical.Data.dll
 C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\obj\Debug\netcoreapp3.1\BlazorMedical.Data.pdb
 C:\Users\jeremias\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\obj\Debug\netcoreapp3.1\BlazorMedical.Data.genruntimeconfig.cache
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\bin\Debug\netcoreapp3.1\BlazorMedical.Data.deps.json
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\bin\Debug\netcoreapp3.1\BlazorMedical.Data.runtimeconfig.json
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\bin\Debug\netcoreapp3.1\BlazorMedical.Data.runtimeconfig.dev.json
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\bin\Debug\netcoreapp3.1\BlazorMedical.Data.dll
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\bin\Debug\netcoreapp3.1\BlazorMedical.Data.pdb
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\obj\Debug\netcoreapp3.1\BlazorMedical.Data.AssemblyInfoInputs.cache
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\obj\Debug\netcoreapp3.1\BlazorMedical.Data.AssemblyInfo.cs
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\obj\Debug\netcoreapp3.1\BlazorMedical.Data.csproj.CoreCompileInputs.cache
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\obj\Debug\netcoreapp3.1\BlazorMedical.Data.dll
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\obj\Debug\netcoreapp3.1\BlazorMedical.Data.pdb
+C:\Users\msosa\source\repos\BlazorMedical\BlazorMedical\BlazorMedical.Data\obj\Debug\netcoreapp3.1\BlazorMedical.Data.genruntimeconfig.cache

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QjXy29D+kv216hqpI29YvKLa3A4DcjkZlizyAt0hmZdfmwm4L9QkhI6xkcClpnulqNlIG6uQ4CFjzc0AExlTUA==",
+  "dgSpecHash": "kh/gtMVcr9gQnMGqu+nB5L+CWdeJtNiWDl0NNNiL0p5ehJT15+Ek4/9XbU7WxPoqNCDl+0qSMYUGRXUyKPIffw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj",
+  "projectFilePath": "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

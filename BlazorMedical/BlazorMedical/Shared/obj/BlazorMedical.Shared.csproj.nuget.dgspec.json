@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj": {}
+    "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj": {
+    "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj",
         "projectName": "BlazorMedical.Shared",
-        "projectPath": "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj",
-        "packagesPath": "C:\\Users\\jeremias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj",
+        "packagesPath": "C:\\Users\\msosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jeremias\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\msosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -60,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

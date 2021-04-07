@@ -1653,28 +1653,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jeremias\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\msosa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Client\\BlazorMedical.Client.csproj",
+      "projectUniqueName": "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Client\\BlazorMedical.Client.csproj",
       "projectName": "BlazorMedical.Client",
-      "projectPath": "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Client\\BlazorMedical.Client.csproj",
-      "packagesPath": "C:\\Users\\jeremias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Client\\obj\\",
+      "projectPath": "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Client\\BlazorMedical.Client.csproj",
+      "packagesPath": "C:\\Users\\msosa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Client\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jeremias\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\msosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -1687,8 +1679,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj": {
-              "projectPath": "C:\\Users\\jeremias\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj"
+            "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj": {
+              "projectPath": "C:\\Users\\msosa\\source\\repos\\BlazorMedical\\BlazorMedical\\BlazorMedical\\Shared\\BlazorMedical.Shared.csproj"
             }
           }
         }
@@ -1737,7 +1729,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

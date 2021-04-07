@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BlazorMedical.Data.Migrations
 {
     [DbContext(typeof(MedicalContext))]
-    [Migration("20210404225934_cambiosEnMedicos")]
-    partial class cambiosEnMedicos
+    [Migration("20210407023148_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,13 +21,31 @@ namespace BlazorMedical.Data.Migrations
                 .HasAnnotation("ProductVersion", "5.0.4")
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
+            modelBuilder.Entity("BlazorMedical.Data.Entities.Especialidad", b =>
+                {
+                    b.Property<string>("EspecialidadId")
+                        .HasColumnType("text")
+                        .HasColumnName("especialidadId");
+
+                    b.Property<int>("Descripcion")
+                        .HasColumnType("integer")
+                        .HasColumnName("descripcion");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("nombre");
+
+                    b.HasKey("EspecialidadId");
+
+                    b.ToTable("Especialidades");
+                });
+
             modelBuilder.Entity("BlazorMedical.Data.Entities.Medico", b =>
                 {
-                    b.Property<int>("MedicoId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("medicoId")
-                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+                    b.Property<string>("MedicoId")
+                        .HasColumnType("text")
+                        .HasColumnName("medicoId");
 
                     b.Property<string>("Apellido")
                         .IsRequired()
@@ -100,6 +118,62 @@ namespace BlazorMedical.Data.Migrations
                     b.HasKey("MedicoId");
 
                     b.ToTable("Medicos");
+                });
+
+            modelBuilder.Entity("BlazorMedical.Data.Entities.MedicoEspecialidad", b =>
+                {
+                    b.Property<string>("MedicoEspecialidadId")
+                        .HasColumnType("text")
+                        .HasColumnName("medicoEspecialidadId");
+
+                    b.Property<string>("EspecialidadId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("EspecialidadId");
+
+                    b.Property<string>("MedicoId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("medicoId");
+
+                    b.HasKey("MedicoEspecialidadId");
+
+                    b.HasIndex("EspecialidadId");
+
+                    b.HasIndex("MedicoId");
+
+                    b.ToTable("MedicoEspecialidades");
+                });
+
+            modelBuilder.Entity("BlazorMedical.Data.Entities.MedicoEspecialidad", b =>
+                {
+                    b.HasOne("BlazorMedical.Data.Entities.Especialidad", "Especialidad")
+                        .WithMany("MedicoEspecialidades")
+                        .HasForeignKey("EspecialidadId")
+                        .HasConstraintName("FK_MedicoEspecialidades_Especialidades")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BlazorMedical.Data.Entities.Medico", "Medico")
+                        .WithMany("MedicoEspecialidades")
+                        .HasForeignKey("MedicoId")
+                        .HasConstraintName("FK_MedicoEspecialidades_Medico")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Especialidad");
+
+                    b.Navigation("Medico");
+                });
+
+            modelBuilder.Entity("BlazorMedical.Data.Entities.Especialidad", b =>
+                {
+                    b.Navigation("MedicoEspecialidades");
+                });
+
+            modelBuilder.Entity("BlazorMedical.Data.Entities.Medico", b =>
+                {
+                    b.Navigation("MedicoEspecialidades");
                 });
 #pragma warning restore 612, 618
         }
